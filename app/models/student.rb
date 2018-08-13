@@ -15,7 +15,7 @@ class Student < ActiveRecord::Base
   has_many :classrooms, through: :classroom_students
   validates :name, presence: true
   validates :hometown, presence: true
-  validates :birthday, presence : true
+  validates :birthday, presence: true
 
   def self.search(query)
   if query.present?
