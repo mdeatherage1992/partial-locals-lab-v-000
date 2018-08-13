@@ -22,5 +22,5 @@ class Student < ActiveRecord::Base
       Student.all
     end
   end
-    
+
 end
